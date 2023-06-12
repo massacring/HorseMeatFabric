@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "horsemeat:cat_meat"
+  },
+  "result": "horsemeat:cooked_cat_meat",
+  "experience": 0.15,
+  "cookingtime": 200
+}

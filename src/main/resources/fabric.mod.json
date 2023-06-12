@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "horsemeat",
+  "version": "${version}",
+  "name": "HorseMeat",
+  "description": "A simple fabric mod that adds more animal meats to minecraft.",
+  "authors": [
+    "massacring"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/HorseMeat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.massacring.horsemeat.client.HorseMeatClient"
+    ],
+    "main": [
+      "me.massacring.horsemeat.HorseMeat"
+    ]
+  },
+  "mixins": [
+    "HorseMeat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
